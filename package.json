@@ -1,0 +1,26 @@
+{
+    "name": "ffmpeg-converter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "format": "npx @biomejs/biome format --write .",
+        "start": "node --experimental-strip-types index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "ffprobe": "^1.1.2",
+        "ffprobe-static": "^3.1.0",
+        "neverthrow": "^8.1.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "@types/ffprobe": "^1.1.8",
+        "@types/ffprobe-static": "^2.0.3",
+        "@types/node": "^22.10.1"
+    }
+}
